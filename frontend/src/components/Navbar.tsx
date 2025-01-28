@@ -19,6 +19,12 @@ const Navbar: React.FC = () => {
           Proveedores
         </Button>
       </Toolbar>
+      <Button color="inherit" component={Link} to="/productos/nuevo">
+  Añadir Producto
+</Button>
+<Button color="inherit" component={Link} to="/movimientos">
+  Movimientos
+</Button>
     </AppBar>
   );
 };
